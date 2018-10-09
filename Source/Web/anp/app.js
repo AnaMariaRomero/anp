@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ANP', ['Core', 'Layout'])
+angular.module('ANP', ['Core', 'Layout', 'Home'])
     .config(function($stateProvider, $urlRouterProvider) {
     })
     .run(['$rootScope', '$state', '$stateParams', '$http',
